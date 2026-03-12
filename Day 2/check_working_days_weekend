@@ -1,0 +1,5 @@
+day = input("Enter a day: ")
+if day=="saturday" or day=="sunday" or day=="SUNDAY" or day=="SATURDAY":
+    print("it is a weekend")
+else:    
+    print("it is a working day")
